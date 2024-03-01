@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Trivia</title>
+</head>
+<body>
+   <div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 class="text-center display-1 text-white p-5 text-wrap">Trivia: 7 questions</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col bg-white p-4 border rounded-3">
+            <h2 id="pregunta" class="text-center fs-2 text-black"></h2>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-lg-6 col-md-12  pt-3">
+            <div id="op1" onclick="verificar(0)" class="respuestas p-2 text-center border rounded-3 fs-4"></div>
+        </div>
+        <div class="col-lg-6 col-md-12  pt-3">
+            <div id="op2" onclick="verificar(1)" class="respuestas p-2 text-center border rounded-3 fs-4"></div>
+        </div>
+        <div class="col-lg-6 col-md-12  pt-3">
+            <div id="op3" onclick="verificar(2)" class="respuestas p-2 text-center border rounded-3 fs-4"></div>
+        </div>
+        <div class="col-lg-6 col-md-12  pt-3">
+            <div id="op4" onclick="verificar(3)" class="respuestas p-2 text-center border rounded-3 fs-4"></div>
+        </div>
+    </div>
+   </div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/codigo.js"></script>
+</body>
+</html>

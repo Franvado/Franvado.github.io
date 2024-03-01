@@ -1,0 +1,16 @@
+*{
+    transition: 0.2s all;
+}
+body{
+    background: #010101;
+    background: linear-gradient(180deg, #010101, #0182C1);
+    min-height: 100vh;
+}
+.respuestas{
+    background-color: white;
+    cursor: pointer;
+}
+.respuestas:hover{
+    background-color: rgb(52, 146, 239);
+    color: white;
+}
